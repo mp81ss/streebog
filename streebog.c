@@ -133,7 +133,7 @@ int main(int argc, char* argv[])
     mem = amalloc(128, sizes, 4, &allocated);
 
     if (mem == NULL) {
-        printf("No memory: Unable to allocate %u bytes\n", allocated);
+        puts("No memory: Unable to allocate memory");
         return EXIT_MEM_ERROR;
     }
     io_buf = *mem;
