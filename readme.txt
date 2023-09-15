@@ -1,3 +1,6 @@
+# ARCHIVED - Moved to gitlab
+
+
 GOST R 34.11-2012 (streebog) hash function library and wrapper
 
 Modifications by me:
